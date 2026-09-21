@@ -1,0 +1,65 @@
+{
+  "projects": [
+    {
+      "id": "inventory-app",
+      "name": "SK Gift Collection",
+      "repo": "dhiliphen/inventory-app",
+      "description": "Inventory & billing management system for SK Gift Collection retail shop",
+      "status": "active",
+      "priority": "high",
+      "live_url": "https://sk-gift-collection.up.railway.app",
+      "tech_stack": ["Python", "FastAPI", "SQLite", "Railway"],
+      "milestones": [
+        { "name": "Core inventory CRUD", "done": true },
+        { "name": "Billing system (INV-####)", "done": true },
+        { "name": "Purchase management", "done": true },
+        { "name": "Supplier & customer management", "done": true },
+        { "name": "Tally Prime print format", "done": true },
+        { "name": "Windows EXE build (CI)", "done": true },
+        { "name": "Tally Prime direct push", "done": false },
+        { "name": "Mobile-friendly UI", "done": false }
+      ]
+    },
+    {
+      "id": "invoice-extractor",
+      "name": "Invoice Extractor",
+      "repo": "dhiliphen/invoice-extractor",
+      "description": "AI-powered invoice & PDF extraction with direct Tally Prime integration",
+      "status": "active",
+      "priority": "high",
+      "live_url": "https://invoice-extractor-production-1666.up.railway.app",
+      "tech_stack": ["Python", "FastAPI", "Claude AI", "SQLite", "Railway"],
+      "milestones": [
+        { "name": "Image invoice extraction", "done": true },
+        { "name": "PDF multi-page support", "done": true },
+        { "name": "Multi-invoice PDF bifurcation", "done": true },
+        { "name": "E-way bill extraction", "done": true },
+        { "name": "Excel download (Tally format)", "done": true },
+        { "name": "Tally queue — Phase 1 (web)", "done": true },
+        { "name": "Tally Agent GUI — Phase 2 (exe)", "done": true },
+        { "name": "Live Tally push end-to-end test", "done": false }
+      ]
+    },
+    {
+      "id": "solo-levelling",
+      "name": "Solo Levelling App",
+      "repo": "dhiliphen/solo-levelling",
+      "description": "RPG-style self-improvement tracker — Atomic Habits + 10,000 hours mastery",
+      "status": "active",
+      "priority": "medium",
+      "live_url": null,
+      "tech_stack": ["React Native", "Expo", "SQLite"],
+      "milestones": [
+        { "name": "Project setup & DB schema", "done": true },
+        { "name": "Character levelling system", "done": true },
+        { "name": "Skills & sub-skills with 10k hours tracking", "done": true },
+        { "name": "Intelligent daily quest scheduler", "done": true },
+        { "name": "Probable deadline calculation", "done": true },
+        { "name": "Session timer with XP", "done": false },
+        { "name": "Habit tracking with streaks", "done": false },
+        { "name": "Stats screen", "done": false },
+        { "name": "App Store / Play Store submission", "done": false }
+      ]
+    }
+  ]
+}
